@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d368e5c6-febe-40c6-917f-49912165aaf7" name="Default Changelist" comment="" />
+    <list default="true" id="d368e5c6-febe-40c6-917f-49912165aaf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/pages/FormularioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/pages/FormularioPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/pages/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/pages/MenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/tests/FormularioTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/tests/FormularioTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/cursoMobile.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/DriverFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/pages/FormularioPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/pages/FormularioPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/pages/MenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/pages/MenuPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/tests/FormularioTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/tests/FormularioTeste.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/screenshots/imagem.png" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +33,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1PCGIyB7dS0guFkr3KRKDxgr3In" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -33,8 +57,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FormularioTeste">
-    <configuration name="FormularioTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ScrollTeste.encontrarOpcaoEscondida">
+    <configuration name="AlertTeste.clicarForaDoAlerta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteMobile" />
       <extension name="coverage">
         <pattern>
@@ -43,29 +67,46 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.FormularioTeste" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FormularioTeste.interagirCheckboxSwitch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TesteMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.br.brisabr.appium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.FormularioTeste" />
-      <option name="METHOD_NAME" value="interagirCheckboxSwitch" />
+      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.AlertTeste" />
+      <option name="METHOD_NAME" value="clicarForaDoAlerta" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormularioTeste.interagirCombo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CliqueTeste.realizarCliqueDuplo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.br.brisabr.appium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.CliqueTeste" />
+      <option name="METHOD_NAME" value="realizarCliqueDuplo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CliqueTeste.realizarCliqueLongo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.br.brisabr.appium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.CliqueTeste" />
+      <option name="METHOD_NAME" value="realizarCliqueLongo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormularioTeste.interagirSeekBar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteMobile" />
       <extension name="coverage">
         <pattern>
@@ -75,13 +116,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
       <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.FormularioTeste" />
-      <option name="METHOD_NAME" value="interagirCombo" />
+      <option name="METHOD_NAME" value="interagirSeekBar" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormularioTeste.preencherCampoTexto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ScrollTeste.encontrarOpcaoEscondida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteMobile" />
       <extension name="coverage">
         <pattern>
@@ -90,83 +131,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.FormularioTeste" />
-      <option name="METHOD_NAME" value="preencherCampoTexto" />
+      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.ScrollTeste" />
+      <option name="METHOD_NAME" value="encontrarOpcaoEscondida" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FormularioTeste.validarCadastro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TesteMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.br.brisabr.appium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.FormularioTeste" />
-      <option name="METHOD_NAME" value="validarCadastro" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="TesteMobile" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="TesteMobile" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FormularioTeste" />
-        <item itemvalue="JUnit.FormularioTeste.validarCadastro" />
-        <item itemvalue="JUnit.FormularioTeste.interagirCheckboxSwitch" />
-        <item itemvalue="JUnit.FormularioTeste.interagirCombo" />
-        <item itemvalue="JUnit.FormularioTeste.preencherCampoTexto" />
+        <item itemvalue="JUnit.ScrollTeste.encontrarOpcaoEscondida" />
+        <item itemvalue="JUnit.CliqueTeste.realizarCliqueDuplo" />
+        <item itemvalue="JUnit.CliqueTeste.realizarCliqueLongo" />
+        <item itemvalue="JUnit.FormularioTeste.interagirSeekBar" />
+        <item itemvalue="JUnit.AlertTeste.clicarForaDoAlerta" />
       </list>
     </recent_temporary>
   </component>
@@ -182,5 +160,18 @@
       <updated>1565370588579</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -1,8 +1,10 @@
 package org.br.brisabr.appium.pages;
 
 import io.appium.java_client.MobileBy;
+import io.appium.java_client.MobileElement;
 import org.br.brisabr.appium.core.BasePage;
 import org.openqa.selenium.By;
+import static org.br.brisabr.appium.core.DriverFactory.getDriver;
 
 public class FormularioPage extends BasePage {
 
@@ -40,8 +42,12 @@ public class FormularioPage extends BasePage {
         return statusSwitch(MobileBy.AccessibilityId("switch"));
     }
 
-    public void salvarFormulario() {
+    public void salvar() {
         clicarPorTexto("SALVAR");
+    }
+
+    public void salvarDemorado() {
+        clicarPorTexto("SALVAR DEMORADO");
     }
 
     public String obterNomeCadastro() {
@@ -58,6 +64,34 @@ public class FormularioPage extends BasePage {
 
     public String obterSwitchCadastro() {
         return obterTexto(By.xpath("//android.widget.TextView[starts-with(@text, 'Switch:')]"));
+    }
+
+    public String obterSliderCadastro(){
+        return obterTexto(By.xpath("//android.widget.TextView[starts-with(@text, 'Slider:')]"));
+    }
+
+
+    public void clicarData(String data) {
+        clicarPorTexto(data);
+    }
+
+    public void selecionarDia(String dia) {
+        clicarPorTexto(dia);
+    }
+
+    public void confirmaData() {
+        clicarPorTexto("OK");
+    }
+
+    public void clicarSeekBar(double posicao) {
+        MobileElement seek = getDriver().findElement(MobileBy.AccessibilityId("slid"));
+        int y = seek.getLocation().y + (seek.getSize().height / 2);
+        System.out.println(y);
+        int x =  (int) (seek.getLocation().x + (seek.getSize().width * posicao));
+
+        tap(x, y);
+
+
     }
 
 

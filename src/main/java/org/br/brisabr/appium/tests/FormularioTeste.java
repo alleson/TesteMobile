@@ -3,6 +3,7 @@ package org.br.brisabr.appium.tests;
 import org.br.brisabr.appium.core.BaseTest;
 import org.br.brisabr.appium.pages.FormularioPage;
 import org.br.brisabr.appium.pages.MenuPage;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -60,7 +61,7 @@ public class FormularioTeste extends BaseTest {
 
     /********************************** CADASTRO ***************************************************/
     @Test
-    public void validarCadastro() throws MalformedURLException {
+    public void Cadastro() throws MalformedURLException {
 
 
         //Escrever nome
@@ -74,7 +75,7 @@ public class FormularioTeste extends BaseTest {
         form.clicarSwitch();
 
         //Clicar para salvar o cadastro
-        form.salvarFormulario();
+        form.salvar();
 
         //Validar cadastro
         assertEquals("Nome: Alleson", form.obterNomeCadastro());
@@ -82,5 +83,41 @@ public class FormularioTeste extends BaseTest {
         assertTrue(form.obterSwitchCadastro().endsWith("Off"));
         assertTrue(form.obterCheckCadastro().endsWith("Marcado"));
 
+    }
+
+    @Test
+    public void CadastroDemorado() throws MalformedURLException {
+
+
+        //Escrever nome
+        form.escreverNome("Alleson");
+
+        //Clicar para salvar o cadastro
+        form.salvarDemorado();
+
+        //Validar cadastro
+        assertEquals("Nome: Alleson", form.obterNomeCadastro());
+
+    }
+
+    @Test
+    public void alterarData(){
+        form.clicarData("01/01/2000");
+        form.selecionarDia("15");
+        form.confirmaData();
+
+        Assert.assertTrue(form.encontrarElementoPorTexto("15/2/2000"));
+    }
+
+    @Test
+    public void interagirSeekBar(){
+        //clicar no seekbar
+        form.clicarSeekBar(0.49);
+
+        //salvar o valor
+        form.salvar();
+
+        //obter o valor
+        Assert.assertEquals("Slider: 49", form.obterSliderCadastro());
     }
 }
