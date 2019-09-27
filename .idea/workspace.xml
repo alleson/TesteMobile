@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d368e5c6-febe-40c6-917f-49912165aaf7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/core/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/pages/FormularioPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/pages/FormularioPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/pages/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/pages/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/tests/FormularioTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/tests/FormularioTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/cursoMobile.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/pages/SwipePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/pages/SwipePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/tests/ScrollTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/tests/ScrollTeste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/tests/SwipeTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/br/brisabr/appium/tests/SwipeTeste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/BasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/core/DriverFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/pages/FormularioPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/pages/FormularioPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/pages/MenuPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/pages/MenuPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/tests/FormularioTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/tests/FormularioTeste.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/screenshots/imagem.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/tests/ScrollTeste.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/br/brisabr/appium/tests/ScrollTeste.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,8 +50,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ScrollTeste.encontrarOpcaoEscondida">
-    <configuration name="AlertTeste.clicarForaDoAlerta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DragAndDropTeste.realizarDragDrop">
+    <configuration name="DragAndDropTeste.realizarDragDrop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteMobile" />
       <extension name="coverage">
         <pattern>
@@ -67,14 +60,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.AlertTeste" />
-      <option name="METHOD_NAME" value="clicarForaDoAlerta" />
+      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.DragAndDropTeste" />
+      <option name="METHOD_NAME" value="realizarDragDrop" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CliqueTeste.realizarCliqueDuplo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SBTeste.setup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TesteMobile" />
       <extension name="coverage">
         <pattern>
@@ -83,40 +76,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.CliqueTeste" />
-      <option name="METHOD_NAME" value="realizarCliqueDuplo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CliqueTeste.realizarCliqueLongo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TesteMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.br.brisabr.appium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.CliqueTeste" />
-      <option name="METHOD_NAME" value="realizarCliqueLongo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FormularioTeste.interagirSeekBar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TesteMobile" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.br.brisabr.appium.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.FormularioTeste" />
-      <option name="METHOD_NAME" value="interagirSeekBar" />
+      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.SBTeste" />
+      <option name="METHOD_NAME" value="setup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,13 +99,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SwipeListTeste.swipeList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.br.brisabr.appium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.SwipeListTeste" />
+      <option name="METHOD_NAME" value="swipeList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwipeTeste.realizarSwipe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteMobile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.br.brisabr.appium.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.br.brisabr.appium.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.br.brisabr.appium.tests.SwipeTeste" />
+      <option name="METHOD_NAME" value="realizarSwipe" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DragAndDropTeste.realizarDragDrop" />
+        <item itemvalue="JUnit.SBTeste.setup" />
+        <item itemvalue="JUnit.SwipeListTeste.swipeList" />
+        <item itemvalue="JUnit.SwipeTeste.realizarSwipe" />
         <item itemvalue="JUnit.ScrollTeste.encontrarOpcaoEscondida" />
-        <item itemvalue="JUnit.CliqueTeste.realizarCliqueDuplo" />
-        <item itemvalue="JUnit.CliqueTeste.realizarCliqueLongo" />
-        <item itemvalue="JUnit.FormularioTeste.interagirSeekBar" />
-        <item itemvalue="JUnit.AlertTeste.clicarForaDoAlerta" />
       </list>
     </recent_temporary>
   </component>

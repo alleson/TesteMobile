@@ -1,6 +1,11 @@
 package org.br.brisabr.appium.pages;
 
 import org.br.brisabr.appium.core.BasePage;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import static org.br.brisabr.appium.core.DriverFactory.getDriver;
 
 public class MenuPage extends BasePage {
 
@@ -32,7 +37,25 @@ public class MenuPage extends BasePage {
         clicarPorTexto("Opção bem escondida");
     }
 
-    public void acessarSwipe(){
+    public void acessarSwipe() {
         clicarPorTexto("Swipe");
+    }
+
+    public void acessarSwipeList() {
+        WebDriverWait wait = new WebDriverWait(getDriver(), 20);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Formulário']")));
+        scrollDown();
+        clicarPorTexto("Swipe List");
+    }
+
+    public void acessarDragAndDrop() {
+        WebDriverWait wait = new WebDriverWait(getDriver(), 20);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Formulário']")));
+        scrollDown();
+        clicarPorTexto("Drag and drop");
+    }
+
+    public void acessarSBNativo() {
+        clicarPorTexto("SeuBarriga Nativo");
     }
 }

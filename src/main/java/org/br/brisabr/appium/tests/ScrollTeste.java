@@ -1,11 +1,9 @@
 package org.br.brisabr.appium.tests;
 
-import org.br.brisabr.appium.core.DriverFactory;
 import org.br.brisabr.appium.pages.MenuPage;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -21,7 +19,7 @@ public class ScrollTeste {
         WebDriverWait wait = new WebDriverWait(getDriver(), 20);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@text='Formulário']")));
         System.out.println("Encontrou");
-        menu.scroll(0.9, 0.1);
+        menu.scrollDown();
 
         //clicar na opcao
         menu.acessarOpcaoEscondida();
